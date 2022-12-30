@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[{"name":"morpheus","job":"leader","id":"432","createdAt":"2022-12-30T22:57:50.602Z"}]]>
+    </line>
+    <line>
+      <![CDATA[{"token":"QpwL5tke4Pnpja7X4"}]]>
+    </line>
+    <line>
+      <![CDATA[{"id":4,"token":"QpwL5tke4Pnpja7X4"}]]>
+    </line>
+    <line>
+      <![CDATA[{"error":"Missing password"}]]>
+    </line>
+    <line>
+      <![CDATA[{"name":"morpheus","job":"zion resident","id":"941","createdAt":"2022-12-30T22:57:52.417Z"}]]>
+    </line>
+    <line>
+      <![CDATA[Sucess 200 validation]]>
+    </line>
+    <line>
+      <![CDATA[{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
+    <line>
+      <![CDATA[Sucess 200 validation]]>
+    </line>
+    <line>
+      <![CDATA[{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
+    <line>
+      <![CDATA[Sucess 200 validation]]>
+    </line>
+    <line>
+      <![CDATA[{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
+    <line>
+      <![CDATA[Sucess 200 validation]]>
+    </line>
+    <line>
+      <![CDATA[{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-30T16:57:48 CST" name="Default suite" finished-at="2022-12-30T16:57:54 CST" duration-ms="5447">
+    <groups>
+    </groups>
+    <test started-at="2022-12-30T16:57:48 CST" name="Default test" finished-at="2022-12-30T16:57:54 CST" duration-ms="5447">
+      <class name="com.unosquare.newClassApi">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.unosquare.newClassApi@31368b99]" started-at="2022-12-30T16:57:48 CST" name="beforeSuite" finished-at="2022-12-30T16:57:48 CST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="PostCreate()[pri:0, instance:com.unosquare.newClassApi@31368b99]" started-at="2022-12-30T16:57:48 CST" name="PostCreate" finished-at="2022-12-30T16:57:50 CST" duration-ms="1824" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[{"name":"morpheus","job":"leader","id":"432","createdAt":"2022-12-30T22:57:50.602Z"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PostCreate -->
+        <test-method signature="PostLogin()[pri:0, instance:com.unosquare.newClassApi@31368b99]" started-at="2022-12-30T16:57:50 CST" name="PostLogin" finished-at="2022-12-30T16:57:51 CST" duration-ms="450" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[{"token":"QpwL5tke4Pnpja7X4"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PostLogin -->
+        <test-method signature="PostRegister()[pri:0, instance:com.unosquare.newClassApi@31368b99]" started-at="2022-12-30T16:57:51 CST" name="PostRegister" finished-at="2022-12-30T16:57:51 CST" duration-ms="455" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[{"id":4,"token":"QpwL5tke4Pnpja7X4"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PostRegister -->
+        <test-method signature="PostRegisterUnsuccessful()[pri:0, instance:com.unosquare.newClassApi@31368b99]" started-at="2022-12-30T16:57:51 CST" name="PostRegisterUnsuccessful" finished-at="2022-12-30T16:57:52 CST" duration-ms="438" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[{"error":"Missing password"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PostRegisterUnsuccessful -->
+        <test-method signature="PutUser()[pri:0, instance:com.unosquare.newClassApi@31368b99]" started-at="2022-12-30T16:57:52 CST" name="PutUser" finished-at="2022-12-30T16:57:52 CST" duration-ms="424" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[{"name":"morpheus","job":"zion resident","id":"941","createdAt":"2022-12-30T22:57:52.417Z"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PutUser -->
+        <test-method signature="getListUnknown()[pri:0, instance:com.unosquare.newClassApi@31368b99]" started-at="2022-12-30T16:57:52 CST" name="getListUnknown" finished-at="2022-12-30T16:57:53 CST" duration-ms="940" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 200 validation]]>
+            </line>
+            <line>
+              <![CDATA[{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getListUnknown -->
+        <test-method signature="getListUsers()[pri:0, instance:com.unosquare.newClassApi@31368b99]" started-at="2022-12-30T16:57:53 CST" name="getListUsers" finished-at="2022-12-30T16:57:53 CST" duration-ms="231" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 200 validation]]>
+            </line>
+            <line>
+              <![CDATA[{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getListUsers -->
+        <test-method signature="getResource()[pri:0, instance:com.unosquare.newClassApi@31368b99]" started-at="2022-12-30T16:57:53 CST" name="getResource" finished-at="2022-12-30T16:57:54 CST" duration-ms="482" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 200 validation]]>
+            </line>
+            <line>
+              <![CDATA[{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getResource -->
+        <test-method signature="getUser2()[pri:0, instance:com.unosquare.newClassApi@31368b99]" started-at="2022-12-30T16:57:54 CST" name="getUser2" finished-at="2022-12-30T16:57:54 CST" duration-ms="166" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 200 validation]]>
+            </line>
+            <line>
+              <![CDATA[{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUser2 -->
+      </class> <!-- com.unosquare.newClassApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
