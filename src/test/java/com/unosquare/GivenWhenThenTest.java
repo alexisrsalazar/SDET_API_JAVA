@@ -15,7 +15,7 @@ import io.restassured.specification.RequestSpecification;
 import static io.restassured.RestAssured.given;
 
 
-public class GivenWhenThen {
+public class GivenWhenThenTest {
   @Test
   public void f_first() {
 	  RestAssured.baseURI = "https://reqres.in/api/";

@@ -14,7 +14,7 @@ import io.restassured.specification.RequestSpecification;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class FileReaderr {
+public class FileReaderTest {
 
   @Test
   public void file_creater() throws IOException, ParseException {

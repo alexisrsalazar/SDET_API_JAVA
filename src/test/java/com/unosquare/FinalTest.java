@@ -13,7 +13,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 
-public class newClassApi {
+public class FinalTest {
 	ApiCore apiCore;
 		//4 POST
 	  @Test

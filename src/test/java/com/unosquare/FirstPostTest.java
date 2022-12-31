@@ -11,7 +11,7 @@ import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
  
 
-public class FirstPost {
+public class FirstPostTest {
   @SuppressWarnings("unchecked")
 @Test
   public void requestParams() {
